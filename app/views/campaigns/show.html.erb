@@ -1,0 +1,11 @@
+<!-- app/views/campaigns/show.html.erb -->
+<h1><%= @campaign.name %></h1>
+<h2>Candidates</h2>
+<ul>
+  <% @candidates.each do |candidate| %>
+    <li><%= candidate.name %> - Score: <%= candidate.score %> - Uncounted votes: <%= candidate.uncounted_messages %></li>
+  <% end %>
+</ul>
+<br>
+<%= link_to 'Index', root_path %>
+
