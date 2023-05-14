@@ -1,5 +1,4 @@
 # README
-### Tech Test Cygnets
 
 Design choices:
 Rails versions: 7.0.4.3
